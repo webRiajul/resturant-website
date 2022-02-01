@@ -246,6 +246,10 @@ nav ul ul li a{
     cursor: pointer;
     transition: all 0.8s;
 }
+.popular-desert .col-md-3 .desert-price h5
+{
+    color: black;
+}
 .popular-desert .col-md-3 .desert-price p{
     color: rgb(255, 96, 20);
     font-size: 20px;
