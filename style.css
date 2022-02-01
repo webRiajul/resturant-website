@@ -243,12 +243,13 @@ nav ul ul li a{
 }
 .popular-desert .col-md-3:hover{
     background: black;
+    color: white;
     cursor: pointer;
     transition: all 0.8s;
 }
 .popular-desert .col-md-3 .desert-price h5
 {
-    color: black;
+    color: rgb(112, 112, 112);
 }
 .popular-desert .col-md-3 .desert-price p{
     color: rgb(255, 96, 20);
