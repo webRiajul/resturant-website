@@ -1,0 +1,61 @@
+@media (max-width:991px){
+   .menu{
+       display: none;
+   }
+   .menu-icon{
+       display: flex;
+       justify-content: flex-end;
+       padding: 15px 30px 15px 15px;
+   }
+   .menu-icon i{
+       color: white;
+       font-size: 25px;
+   }
+   .banner{
+       display: none;
+   }
+   .popular-food{
+       display: none;
+   }
+   .popular-desert{
+       display: none;
+   }
+   .photo-gallery{
+       display: none;
+   }
+   .gallery-text{
+       position: absolute;
+       top: 50px;
+       left: 50px;
+   }
+   .gallery-text p,
+   .gallery-text h2{
+       color: white;
+   }
+   .gallery-text small{
+       text-align: center;
+       color: white;
+   }
+   .b-icon-section{
+       margin-top: 300px;
+       white-space: nowrap;
+   }
+   .our-event{
+       white-space: nowrap;
+       margin-top: 30px;
+   }
+   .event-text{
+       text-align: left;
+       margin: 0;
+   }
+   .event-right p{
+       display: none;
+   }
+   .footer-section{
+       text-align: left;
+   }
+   .footer-bottom{
+       margin: 40px 0 0 0;
+       white-space: nowrap;
+   }
+}

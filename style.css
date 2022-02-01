@@ -1,0 +1,449 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nanum+Gothic&family=Oswald&family=PT+Sans&display=swap');
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.header-area{
+    background: url(img/B4.jpg) no-repeat fixed center;
+    background-size: cover;
+    
+}
+.header-area-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 0 70px 0;
+}
+.header{
+    padding: 10px 0;
+}
+.logo{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+}
+.logo h3{
+    color: white;
+}
+.logo h3:hover{
+    color: #FF6014;
+    cursor: pointer;
+}
+.logo h3 span{
+    color: #FF6014;
+    font-size: 40px;
+}
+/* Menu */
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+nav ul li a:hover{
+    color: #FF6014;
+}
+.menu-icon{
+    display: none;
+}
+/* Submenu */
+nav ul ul{
+    display: block;
+    background: white;
+    margin-right: 10px;
+    display: none;
+}
+nav ul ul li a{
+    color: black;
+    font-weight: 500;
+    padding: 5px 5px;
+}
+/* Button */
+.button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+.button a{
+    color: white;
+    background: #FF6014;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+/* Sidebar */
+.sidebar{
+    background: white;
+    width: 270px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: -270px;
+    padding: 50px 30px;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li a{
+    color: black;
+    font-size: 20px;
+}
+.sidebar ul li a:hover{
+    color: #FF6014;
+}
+.sidebar ul ul{
+    padding: 10px 5px;
+    transform: translateX(20px);
+}
+.sidebar-close{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.sidebar-close i{
+    font-size: 30px;
+}
+/* Banner */
+.banner{
+    text-align: center;
+    color: white;
+}
+.banner-text{
+    width: 35%;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+.banner-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.banner-button{
+    font-family: 'Lato', sans-serif;
+    margin: 30px;
+}
+.banner-button a{
+    background: #FF6014;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+/* Banner icon */
+.b-icon-section{
+    margin-top: 100px;
+}
+.b-icon-section .col-md-3 .down i{
+    color: white;
+    margin-top: 10px;
+}
+.b-icon{
+    display: flex;
+}
+.b-icon .icon{
+    background: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+
+}
+.b-icon .icon a i{
+    color: #FF6014;
+}
+/* Popular Food Section */
+.popular-food{
+    background: #FEE2B3;
+    padding: 100px 0 40px 0;
+}
+.popular-food .popular-text p{
+    font-family: 'PT Sans', sans-serif;
+}
+.popular-food .popular-text h2{
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+}
+.popular-food .popular-text h2 span{
+    color: #FF6014;
+}
+.breakfast{
+    display: flex;
+    margin-top: 15px;
+}
+.breakfast img{
+    height: 50px;
+    width: 50px;
+}
+.breakfast a{
+    color: black;
+}
+.breakfast h5{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.popular-food .col-md-8 .item h2{
+    margin-bottom: 30px;
+}
+.popular-food .col-md-8 .item .col-md-6 img{
+    border-radius: 10px;
+}
+.nam{
+    margin-top: 15px;
+}
+/* Popular Desert */
+.popular-desert{
+    padding: 70px 0;
+}
+.popular-desert .desert-text{
+    text-align: center;
+}
+.popular-desert .desert-text h2 span{
+    color: #FF6014;
+}
+.popular-desert .col-md-3{
+    border: 1px solid rgb(192, 180, 180);
+    padding: 20px 10px;
+    margin-right: 10px;
+    width: 270px;
+}
+.popular-desert .col-md-3:hover{
+    background: black;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.popular-desert .col-md-3 .desert-price p{
+    color: rgb(255, 96, 20);
+    font-size: 20px;
+    font-weight: 400;
+}
+.popular-desert .col-md-3 .desert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular-desert .col-md-3 .desert .desert-img{
+    width: 80px;
+    height: 80px;
+}
+/* Satisfied Customers */
+.photo-gallery{
+    background: url(img/H7.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.photo-gallery-overlay{
+    background: rgba(238, 189, 118, 0.9);
+    padding: 100px 0;
+
+    
+}
+.gallery-text h2 span{
+    color: #FF6014;
+}
+.customer-profile img{
+    border-radius: 50%;
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 10px;
+}
+.customer-profile h5{
+    color: #FF6014;
+}
+.owl-dots{
+text-align: left;
+}
+.owl-dots button.owl-dot{
+    height: 8px;
+    width: 8px;
+    background: rgb(170, 166, 166);
+    margin: 5px;
+    border-radius: 50%;
+}
+.owl-dots button.owl-dot.active{
+    background: #FF6014;
+}
+/* Photo Gallery */
+.gallery-right .col-md-6 .g-img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-right .col-md-6:hover img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.gallery-button{
+    background: #FF6014;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.gallery-button a{
+    color: white;
+    text-transform: uppercase;
+}
+/* Our Events */
+.our-event{
+    background: #FEE2B3;
+}
+.event-text{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.event-text p{
+    margin-bottom: 5px;
+}
+.our-event-slide{
+    padding-bottom: 40px;
+}
+.event-right{
+    width: 80%;
+    margin: 30px auto;
+}
+.event-right h4{
+    color: #FF6014;
+}
+.event-right h2{
+    font-family: 'Lato', sans-serif;
+}
+/* Table Booking */
+.book-table{
+    background: url(img/H2.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.book-table-overlay{
+    background: rgba(232, 197, 132, 0.9);
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+.book-table-text{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.book-table-text p{
+    color: rgb(75, 71, 71);
+    margin-bottom: 10px;
+}
+.book-table-text small{
+    font-size: 15px;
+}
+.book-table-overlay a{
+   background: #FF6014 !important;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 50px;
+   margin-top: 20px;
+}
+/* Footer Section */
+.footer-section{
+    background: #645F56;
+}
+.footer-top{
+    padding: 70px 0 50px 0;
+}
+.footer-first{
+    font-family: 'Lato', sans-serif;
+}
+.footer-first h5{
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-first h5 span{
+    color: #FF6014;
+    font-size: 20px;
+}
+.col-md-5 h5{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+}
+.footer-first p{
+    color: white;
+    margin-bottom: 20px;
+}
+.social-icon{
+    display: flex;
+}
+.social-icon .social{
+    background: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.social-icon a{
+    color: black;
+}
+.social-icon .social:hover{
+    background-color: #FF6014;
+}
+.social-icon .social:hover a{
+    color: white;
+}
+.col-md-2 h5, .col-md-3 h5,
+.col-md-3 p{
+    color: white;
+    margin-bottom: 20px;
+}
+.col-md-3 .p-item,
+.col-md-2 .p-item{
+    margin-top: 10px;
+}
+.col-md-3 .p-item a,
+.col-md-2 .p-item a{
+    color: rgb(187, 178, 178);
+    font-size: 17px;
+}
+.col-md-3 .p-item a:hover,
+.col-md-2 .p-item a:hover{
+    color: white;
+}
+.footer-bottom{
+    margin: 130px 250px 0 250px;
+}
+.footer-bottom p{
+    color: white;
+}
